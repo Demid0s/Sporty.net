@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 225, 225);
+}
+
+
+footer{ 
+    left: 0;
+    bottom: 0;
+    background-color: #111;
+    padding-top: 10px;
+
+}
+  .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .block {
+        width: calc(50% - 150px);
+        height: 150px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        border-radius: 30px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F00000;
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+    }
+    .map-link {
+        position: absolute;
+        bottom: 10px; 
+        text-decoration: underline; 
+        color: #555; 
+        font-family: "Times New Roman", Times, serif; 
+    }
+button {
+    margin-top: 20px;
+    padding-right: 10px; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-decoration: underline; 
+    display: block; 
+    border-radius: 30px;
+    background-color: #f0f0f0;
+    border-color: blue;
+    margin-left: 150px; 
+}
+
+	  #map {
+        width: 100%;
+        height: 400px;
+	  }
+.text-container {
+    flex: 1;
+    text-align: left;
+}
+
+.image-container {
+    flex: 1;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+.text-block5{
+	 background-color: red; /* Устанавливаем красный цвет фона */
+        border-radius: 10px; /* Устанавливаем радиус скругления углов */
+        padding: 10px; /* Добавляем отступы внутри блока для текста */
+        color: white; /* Устанавливаем белый цвет текста для контраста */
+        display: inline-block; /* Делаем блок в строчно-блочном контексте */
+		    font-size: 40px; /* Устанавливаем размер шрифта 45px */
+    font-family: 'Montserrat', sans-serif; /* Изменяем шрифт на Montserrat, sans-serif */
+margin-left:70px;
+}
+.text-block4{
+	 background-color: red; /* Устанавливаем красный цвет фона */
+        border-radius: 10px; /* Устанавливаем радиус скругления углов */
+        padding: 10px; /* Добавляем отступы внутри блока для текста */
+        color: white; /* Устанавливаем белый цвет текста для контраста */
+        display: inline-block; /* Делаем блок в строчно-блочном контексте */
+		    font-size: 40px; /* Устанавливаем размер шрифта 45px */
+    font-family: 'Montserrat', sans-serif; /* Изменяем шрифт на Montserrat, sans-serif */
+margin-left:60px;
+}
+.text-block2{
+margin: 20px 0; /* Увеличиваем отступ между блоками текста */
+    font-size: 40px; /* Устанавливаем размер шрифта 45px */
+    font-family: 'Montserrat', sans-serif; /* Изменяем шрифт на Montserrat, sans-serif */
+    display: block;
+}
+	.text-block1{
+margin: 20px 0; /* Увеличиваем отступ между блоками текста */
+    font-size: 16px; /* Устанавливаем размер шрифта 45px */
+    font-family: 'Montserrat', sans-serif; /* Изменяем шрифт на Montserrat, sans-serif */
+    display: block;
+}
+.text-block {
+    margin: 20px 0; /* Увеличиваем отступ между блоками текста */
+    font-size: 45px; /* Устанавливаем размер шрифта 45px */
+    font-family: 'Montserrat', sans-serif; /* Изменяем шрифт на Montserrat, sans-serif */
+    display: block;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: right;
+    align-self: flex-end;
+
+}
+
+.footerText{
+    display: flex;
+    justify-content: right;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    margin-right: 110px;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 20px;
+    margin-inline: 20px;
+    border-radius: 40%;
+}
+
+.socialIcons a i{
+    font-size: 1.5em;
+    color: white;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration:none;
+}
+
+header{
+    display: flex;
+    position: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    cursor: pointer;
+    color: #00FFE0;
+    font-weight: 800;
+    font-size: 24px;
+}
+ .p{
+	 position:flex;
+	 top:50px;
+ }
+ 
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 8px;
+    position: relative;
+    text-align: center;
+}
+.slide{
+    display: none; 
+}
+
+.slide img {
+    margin: 0 auto; 
+    width: 1000px;
+    height: 500px;
+}
